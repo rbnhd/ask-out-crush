@@ -39,7 +39,16 @@
     ```
     In your browser, go to $PUBLIC_IP:$PORT
     If you are running your container on port 80, just inputting the public IP should be enough. 
+    You can find the public IP of your Virtual machine either through the console of your Cloud provider, or if you have terminal access to the VM< you can get it by running below command in the VM.
+    $ curl -4 ifconfig.me
     ```
+
+### Screenshots:
+* [Initial page](./screenshots/initial_page.png)
+* [Crush says Yes](./screenshots/yes_response.png)
+* [Rejection No. 1](./screenshots/no_response1.png)
+* [Rejection final](./screenshots/crush_really_doesnt_wanna_go.png)
+
 <br>
 
 Good Luck! 😃
