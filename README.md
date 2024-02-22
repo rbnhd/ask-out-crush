@@ -23,8 +23,8 @@
     ```
     $ docker run --rm --name date_request -d -p 80:80 date_request:v1
     
-    The --rm flag tells docker that the container should automatically be removed after we close docker
-    The -d flag means that a Docker container runs in the background of your terminal. 
+    The --rm flag tells docker that the container should automatically be removed after we close docker using ($ docker stop date_request)
+    The -d flag means that a Docker container runs in the background of your terminal in detached mode. 
     
     ```
 
