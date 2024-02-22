@@ -38,8 +38,10 @@
 * If you have deployed on a Virtual machine with public IP(for example an AWS EC2 instance)
     ```
     In your browser, go to $PUBLIC_IP:$PORT
+
     If you are running your container on port 80, just inputting the public IP should be enough. 
-    You can find the public IP of your Virtual machine either through the console of your Cloud provider, or if you have terminal access to the VM< you can get it by running below command in the VM.
+
+    You can find the public IP of your Virtual machine either through the console of your Cloud provider, or if you have terminal access to the VM you can get it by running below command in the VM.
     $ curl -4 ifconfig.me
     ```
 
