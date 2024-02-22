@@ -6,7 +6,7 @@ FROM nginx:stable
 RUN mkdir -p /usr/share/nginx/html/images
 
 # Copy images from the local "images" directory to the newly created directory in the container
-COPY images/ /usr/share/nginx/html/images
+COPY images/ /usr/share/nginx/html/images/
 
 # Copy the index.html file to the appropriate directory in the container where nginx can serve it
 COPY index.html /usr/share/nginx/html/
