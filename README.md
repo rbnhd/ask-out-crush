@@ -14,14 +14,14 @@
     
     If you wish to customize the text or put the name of your Crush, edit the index.html file at this step and then run the below command. 
     
-    $ docker build -t dateRequest:v1 .
+    $ docker build -t date_request:v1 .
     
     ```
 
 ### Run your container
 * Although, you can run on any http port on host, however port 80 is recommended if your host IP is accessible on the internet (requests on public IP defaults to port 80)
     ```
-    $ docker run --rm --name dateRequest -d -p 80:80 dateRequest:v1
+    $ docker run --rm --name date_request -d -p 80:80 date_request:v1
     
     The --rm flag tells docker that the container should automatically be removed after we close docker
     The -d flag means that a Docker container runs in the background of your terminal. 
