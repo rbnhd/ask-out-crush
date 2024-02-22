@@ -46,10 +46,13 @@
     ```
 
 ### Screenshots:
-* [Initial page](./screenshots/initial_page.png)
-* [Crush says Yes](./screenshots/yes_response.png)
-* [Rejection No. 1](./screenshots/no_response1.png)
-* [Rejection final](./screenshots/crush_really_doesnt_wanna_go.png)
+* [Initial page 💌](./screenshots/initial_page.png)
+* [Crush says Yes 🥳](./screenshots/yes_response.png)
+* [Crush Rejects first time 😕](./screenshots/no_response1.png)
+* [Crush Rejects for the 2nd time 😩](./screenshots/no_response2.png)
+* [Damn it's not looking good 😰](./screenshots/no_response3.png)
+* [It's definitely not looking good 😓](./screenshots/no_response4.png)
+* [Let me disable the rejection button itself. 🧠](./screenshots/crush_really_doesnt_wanna_go.png)
 
 <br>
 
